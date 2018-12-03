@@ -5,4 +5,8 @@ public class GitTest{
     public GitTest(){
       git = "This is my GitHub test";
     }
- }
+
+    public String toString(){
+		return git;
+    }
+  }
